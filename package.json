@@ -1,0 +1,27 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "re": "npx hardhat clean && npx hardhat compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarabukinivan?tab=repositories"
+  },
+  "keywords": [
+    "smartcontract",
+    "solidity"
+  ],
+  "author": "tarabukinivan",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.5"
+  },
+  "dependencies": {
+    "error-ex": "github:Qix-/node-error-ex"
+  }
+}
